@@ -18,7 +18,7 @@ export const styles = StyleSheet.create({
     },
     text:{
       fontSize:18,
-      color:'2F2F2F',
+      color:'#F2F2F2',
       alignSelf:'center',
       flexWrap:'wrap',
       alignContent:'center',

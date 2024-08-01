@@ -3,13 +3,20 @@ import BouncyCheckbox from "react-native-bouncy-checkbox"; {/* https://www.npmjs
 import Delete from "../../assets/images/delete.png"
 import{styles} from './styles'
 
+type Props = {
+    task: string,
+    remove: () => void;
+}
 
-export function BoxTask() {
+export function BoxTask({task,remove}:Props) {
     return (
         <View style={styles.container}>
             <BouncyCheckbox />
-            <Text style={styles.text}>testando sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssumss qualquer</Text>
-            <TouchableOpacity style={styles.image}  >
+            <Text style={styles.text}>{task}</Text>
+
+            <TouchableOpacity style={styles.image} onPress={remove}  >
+
+
             <Image source={Delete} style={styles.image} />
             </TouchableOpacity>
         </View>

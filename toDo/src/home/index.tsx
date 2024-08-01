@@ -1,4 +1,6 @@
-import { View,Text,Image,TextInput,TouchableOpacity } from "react-native"
+import { View,Text,Image,TextInput,TouchableOpacity,FlatList,ScrollView } from "react-native"
+import { useState } from "react"
+
 import {styles} from "./styles"
 import { BoxTask } from "../components/BoxTask"
 
@@ -6,7 +8,22 @@ import LogoImage from "../assets/images/logo.png"
 import Add from "../assets/images/add.png"
 
 
+
 export function Home (){
+
+    const [tasks,SetTasks] = useState<string []>(['fazer pão','prdro','JU','santiago','rodolfo','lyanne','carlos','prdro sampaio','juçara']);
+    const teste = ['fazer pão','prdro','JU','santiago','rodolfo','lyanne','carlos','prdro sampaio','juçara']
+    
+
+   function HandleTaskAdd(){
+     console.log ('Voces esta clicando em adicionar uma nova task')
+     SetTasks(prevState => [...prevState,'ana'] )
+   }
+    
+
+   function HandleTaskRemove(task:string){
+     console.log (`Voces esta clicando em Remover uma task ${task}`)
+   }
 
    return (
     <>
@@ -16,7 +33,7 @@ export function Home (){
         
         <View style={styles.containerInput}>
            <TextInput style={styles.textInput} placeholder="Adicione uma nova tarefa" placeholderTextColor={'#7f7f7f'} />    
-           <TouchableOpacity style={styles.buttonAdd}> 
+           <TouchableOpacity style={styles.buttonAdd} onPress={HandleTaskAdd}> 
                <Image source={Add} style={{width:27,height:27}}/>
             </TouchableOpacity>
         </View>
@@ -31,12 +48,25 @@ export function Home (){
                         <Text style={styles.textStatus}>Concluidas</Text>
                         <View style={styles.circleCount}><Text style={{color:'white',fontSize:15}}>0</Text></View>
                     </View>
-            </View>
+                </View>
             
-            <BoxTask/>
-            
+               <FlatList 
+               data={['fazer pão','prdro','JU','santiago','rodolfo','lyanne','carlos','prdro sampaio','juçara']} 
+               keyExtractor={item => item}
+               renderItem={({item}) => <BoxTask key={item} task={item} remove={() => HandleTaskRemove(item)} />} 
+               />
+               
+              {/*<ScrollView>
+               {
+                teste.map(task =>(
+                    <BoxTask key={task} task={task} remove={() => HandleTaskRemove(task)} />
+                )) 
+               }  </ScrollView> */}
+             
+
+
        </View>
-     
+        
    </View>
    
    </>
