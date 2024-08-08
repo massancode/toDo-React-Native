@@ -6,10 +6,12 @@ type props= {
 
 export const styles =  StyleSheet.create({
     container:{
+        flex:1,
         backgroundColor:'#0D0D0D',
         width:'100%',
-        alignItems:'center',
         flexDirection:'column',
+        alignItems:'center',
+        justifyContent:'center'
     },
     image:{
       marginTop:65,  
@@ -17,6 +19,7 @@ export const styles =  StyleSheet.create({
       height:32,
     },
     containerInput:{
+
         flexDirection:'row',
         alignItems:'center',
         marginTop:10,
@@ -51,17 +54,22 @@ export const styles =  StyleSheet.create({
           borderRadius:5
     },
     containerdown:{
+        flex:2,
         backgroundColor:'#191919',
-        height:'100%',
         width:'100%',
-        zIndex:0
+        zIndex:0,
+        flexDirection:'column',
+        alignItems:'center'
+        
+      
        },
 
        status:{ 
         flexDirection:'row',
         justifyContent:'center',
         marginTop:75,
-        gap:130
+        gap:130,
+      
     },
        statusCreate:{
         flexDirection:'row',

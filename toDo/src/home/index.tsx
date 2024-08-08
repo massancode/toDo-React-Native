@@ -1,4 +1,4 @@
-import { View,Text,Image,TextInput,TouchableOpacity,FlatList,ScrollView } from "react-native"
+import { View,Text,Image,TextInput,TouchableOpacity,FlatList,ScrollView, SafeAreaView } from "react-native"
 import { useState } from "react"
 
 import {styles} from "./styles"
@@ -50,20 +50,18 @@ export function Home (){
                     </View>
                 </View>
             
-               <FlatList 
-               data={['fazer pão','prdro','JU','santiago','rodolfo','lyanne','carlos','prdro sampaio','juçara']} 
+
+
+         
+               <FlatList nestedScrollEnabled
+               data={tasks} 
+               showsHorizontalScrollIndicator={false}
                keyExtractor={item => item}
                renderItem={({item}) => <BoxTask key={item} task={item} remove={() => HandleTaskRemove(item)} />} 
                />
-               
-              {/*<ScrollView>
-               {
-                teste.map(task =>(
-                    <BoxTask key={task} task={task} remove={() => HandleTaskRemove(task)} />
-                )) 
-               }  </ScrollView> */}
-             
+          
 
+            
 
        </View>
         
