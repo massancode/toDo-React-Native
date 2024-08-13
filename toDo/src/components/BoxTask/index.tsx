@@ -12,6 +12,10 @@ export function BoxTask({task,remove}:Props) {
     return (
         <View style={styles.container}>
               
+
+              <View> 
+                <BouncyCheckbox fillColor="#4EA8DE"   />
+              </View>
              <View style={styles.boxText}>
              <Text style={styles.text}>{task}</Text>
              </View>

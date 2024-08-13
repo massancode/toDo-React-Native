@@ -73,19 +73,28 @@ export const styles =  StyleSheet.create({
     },
        statusCreate:{
         flexDirection:'row',
-        gap:10
+        gap:10,
+        justifyContent:'center',
+
        },
        textStatus:{
          color:'#4EA8DE',
          fontWeight:'bold',
          fontSize:18
        },
+       textStatusConclude:{
+         color:'#5E60CE',
+         fontWeight:'bold',
+         fontSize:18
+       },
        circleCount:{
+        flexDirection:'column',
+        justifyContent:'center',
+        alignItems:'center',
+        marginTop:5,
         backgroundColor:'#262626',
         width:25,
         height:19,
-        justifyContent:'center',
-        alignItems:'center',
         borderRadius:10,
        }
 })
