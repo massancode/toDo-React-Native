@@ -1,4 +1,5 @@
 import { StyleSheet, TextInput } from "react-native";  
+import { Inter_400Regular,Inter_700Bold } from "@expo-google-fonts/inter";
 
 type props= {
     color:string
@@ -30,17 +31,19 @@ export const styles =  StyleSheet.create({
         zIndex:1,
         marginRight:60,
         borderWidth:2,
-        borderRadius:5
+        borderRadius:5,
+        fontFamily:'Inter_700Bold'
 
     },
     textInput:{
         backgroundColor:'#262626',
         height:'100%',
         width:'100%',
-        color:'#FFF',
+        color:'#fff',
         padding:16,
         fontSize:16,  
-        borderRadius:5
+        borderRadius:5,
+        fontFamily:'Inter_400Regular'
         
     },
     buttonAdd:{
@@ -80,7 +83,8 @@ export const styles =  StyleSheet.create({
        textStatus:{
          color:'#4EA8DE',
          fontWeight:'bold',
-         fontSize:18
+         fontSize:18,
+         fontFamily:'Inter_700Bold'
        },
        textStatusConclude:{
          color:'#5E60CE',

@@ -1,5 +1,6 @@
 import { View,Text,Image,TextInput,TouchableOpacity,FlatList,ScrollView, SafeAreaView,Alert} from "react-native"
 import { useState } from "react"
+import { Inter_700Bold } from "@expo-google-fonts/inter"
 
 import {styles} from "./styles"
 import { BoxTask } from "../components/BoxTask"
@@ -23,18 +24,20 @@ export function Home (){
      setAddtask ('')
    }
     
+    
+ 
 
    function HandleTaskRemove(task:string){
     
-     setFinalizedTasks(prevState => [...prevState,task])
-     setTasks(prevState=>prevState.filter(exectask => exectask !== task))
+
      console.log (`Voces esta clicando em Remover uma task ${task}`)
      Alert.alert('Parabens amigo !',`Voce completou  a taks ? "${task}"`,[
-     
-        
+   
         {
             text:'sim',
-            onPress: () => HandleTaskRemove
+            onPress: () => {
+                setFinalizedTasks(prevState => [...prevState,task])
+                setTasks(prevState=>prevState.filter(exectask => exectask !== task))}
 
         },
         {
@@ -77,10 +80,11 @@ export function Home (){
                keyExtractor={(item) => item}
                renderItem={({item}) => <BoxTask key={item} task={item} remove={() => HandleTaskRemove(item)} />} 
                ListEmptyComponent={ () => (
-                <View style={{alignItems:'center',borderTopWidth:2,marginTop:20,borderColor:'#2A2A2A',paddingHorizontal:'5%'}}>
+                <View style={{alignItems:'center',borderTopWidth:2,marginTop:20,borderColor:'#2A2A2A',paddingHorizontal:'5%',}}>
                     <Image source={ListImage} style={{width:75,height:75,marginTop:45,marginBottom:25,}} />
-                    <Text style={{color:'#7F7F7F',fontStyle:'italic'}}>Você ainda não tem tarefas cadastrados</Text>
-                    <Text style={{color:'#7F7F7F'}}>Crie tarefas e organize seus itens a fazer</Text>
+                    <Text style={{color:'#7F7F7F',fontFamily:'Inter_700Bold'}}>Você ainda não tem tarefas cadastradas</Text>
+                    <Text style={{color:'#7F7F7F',fontFamily:'Inter_700Bold'}}>Crie tarefas e organize seus itens a fazer</Text>
+                    
                 </View>
                )}
                />

@@ -1,4 +1,5 @@
-import { StyleSheet } from "react-native";      
+import { StyleSheet } from "react-native";     
+import { useFonts,Inter_100Thin,Inter_200ExtraLight,Inter_300Light,Inter_400Regular,Inter_500Medium,Inter_600SemiBold,Inter_700Bold,Inter_800ExtraBold,Inter_900Black } from "@expo-google-fonts/inter"; 
 
 export const styles = StyleSheet.create({
 
@@ -15,14 +16,24 @@ export const styles = StyleSheet.create({
       
     },
     boxText:{
-      width:120,
+      width:200,
       height:58,
       justifyContent:'center'
     },
     text:{
-      fontSize:20,
+      fontSize:14,
       color:'#F2F2F2',
       textAlign:'center',
+      fontFamily:'Inter_400Regular'
+     
+      
+    },
+    textComplete:{
+      fontSize:14,
+      color:'#F2F2F2',
+      textAlign:'center',
+      textDecorationLine:'line-through',
+      opacity:0.4
       
     },
     imageTrash:{
