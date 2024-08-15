@@ -31,7 +31,7 @@ export function Home (){
     
 
      console.log (`Voces esta clicando em Remover uma task ${task}`)
-     Alert.alert('Parabens amigo !',`Voce completou  a taks ? "${task}"`,[
+     Alert.alert('Parabens amigo !',`Voce completou  a task ? "${task}"`,[
    
         {
             text:'sim',
