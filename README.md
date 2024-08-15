@@ -36,16 +36,16 @@ Esse projeto foi desenvolvido com as seguintes tecnologias e ferramentas:
 
 ## 🚀 Executando o Projeto
 
-Após clonar o repositório, siga os passos abaixo para rodar o projeto em seu ambiente local:
+-Após clonar o repositório, siga os passos abaixo para rodar o projeto em seu ambiente local:
 
 # Usando npm
-npm install
+-npm install
 
-# Ou usando yarn
-yarn install
+# usando yarn
+-yarn install
 
-# AAgora so iniciar
-npx expo start
+# Agora so iniciar
+-npx expo start
 
 ## 📸 Capturas de Tela
 
