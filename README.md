@@ -36,7 +36,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias e ferramentas:
 
 ## ✨ More :p -
    
-    
+  <p align="center">
   <img alt="License" src="./src/assets/images/imagens/Sem Tarefas.png">
   <img alt="License" src="./src/assets/images/imagens/Escrevendo tarefas.png">
   <img alt="License" src="./src/assets/images/imagens/Tarefa adicionada.png">
@@ -44,7 +44,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias e ferramentas:
   <img alt="License" src="./src/assets/images/imagens/Tarefas em serie.png">
   <img alt="License" src="./src/assets/images/imagens/Tarefa tela de confirmação.png">
   <img alt="License" src="./src/assets/images/imagens/Tarefa contabilizada.png">
-  
+  </p>
 
 
 
