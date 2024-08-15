@@ -34,18 +34,43 @@ Esse projeto foi desenvolvido com as seguintes tecnologias e ferramentas:
 -   [ ] Criar notificações de push.
 -   [ ] Botão para alterar cor de fundo.
 
-## ✨ More :p -
-   
-  <p align="center">
-  <img alt="License" src="./src/assets/images/imagens/Sem Tarefas.png">
-  <img alt="License" src="./src/assets/images/imagens/Escrevendo tarefas.png">
-  <img alt="License" src="./src/assets/images/imagens/Tarefa adicionada.png">
-  <img alt="License" src="./src/assets/images/imagens/Tarefa concluida.png">
-  <img alt="License" src="./src/assets/images/imagens/Tarefas em serie.png">
-  <img alt="License" src="./src/assets/images/imagens/Tarefa tela de confirmação.png">
-  <img alt="License" src="./src/assets/images/imagens/Tarefa contabilizada.png">
-  </p>
+## 📸 Capturas de Tela
 
-
+<table>
+  <tr>
+    <td align="center">
+      <img alt="Sem Tarefas" src="./src/assets/images/imagens/Sem Tarefas.png" width="200px">
+      <p>Sem Tarefas</p>
+    </td>
+    <td align="center">
+      <img alt="Escrevendo Tarefas" src="./src/assets/images/imagens/Escrevendo tarefas.png" width="200px">
+      <p>Escrevendo Tarefas</p>
+    </td>
+    <td align="center">
+      <img alt="Tarefa Adicionada" src="./src/assets/images/imagens/Tarefa adicionada.png" width="200px">
+      <p>Tarefa Adicionada</p>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img alt="Tarefa Concluída" src="./src/assets/images/imagens/Tarefa concluida.png" width="200px">
+      <p>Tarefa Concluída</p>
+    </td>
+    <td align="center">
+      <img alt="Tarefas em Série" src="./src/assets/images/imagens/Tarefas em serie.png" width="200px">
+      <p>Tarefas em Série</p>
+    </td>
+    <td align="center">
+      <img alt="Tela de Confirmação" src="./src/assets/images/imagens/Tarefa tela de confirmação.png" width="200px">
+      <p>Tela de Confirmação</p>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img alt="Tarefa Contabilizada" src="./src/assets/images/imagens/Tarefa contabilizada.png" width="200px">
+      <p>Tarefa Contabilizada</p>
+    </td>
+  </tr>
+</table>
 
 
