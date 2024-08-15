@@ -34,5 +34,18 @@ Esse projeto foi desenvolvido com as seguintes tecnologias e ferramentas:
 -   [ ] Criar notificações de push.
 -   [ ] Botão para alterar cor de fundo.
 
+## ✨ More :p -
+   
+    
+  <img alt="License" src="./src/assets/images/imagens/Sem Tarefas.png">
+  <img alt="License" src="./src/assets/images/imagens/Escrevendo tarefas.png">
+  <img alt="License" src="./src/assets/images/imagens/Tarefa adicionada.png">
+  <img alt="License" src="./src/assets/images/imagens/Tarefa concluida.png">
+  <img alt="License" src="./src/assets/images/imagens/Tarefas em serie.png">
+  <img alt="License" src="./src/assets/images/imagens/Tarefa tela de confirmação.png">
+  <img alt="License" src="./src/assets/images/imagens/Tarefa contabilizada.png">
+  
+
+
 
 
