@@ -37,6 +37,6 @@ Esse projeto foi desenvolvido com as seguintes tecnologias e ferramentas:
 
 ## 🔖 Layout
 
-Você pode visualizar o layout do projeto através [desse link](https://www.figma.com/community/file/991338130828322960). É necessário ter uma conta no [Figma](http://figma.com/) para acessá-lo.
+Você pode visualizar o layout do projeto através [desse link]([https://www.figma.com/community/file/991338130828322960](https://www.figma.com/design/sW6BEuUSUL9FQA5R4jrWyM/ToDo-List-%E2%80%A2-Desafio-React-Native-(Copy)?m=auto&t=T9wIkh8MzpHCijjC-1)). É necessário ter uma conta no [Figma](http://figma.com/) para acessá-lo.
 
 
