@@ -1,15 +1,14 @@
 
 <h1 align="center">
-  <img alt="Todo" height="80" title="Todo App" src=".github/logo.png" />
+  <img alt="Todo" height="80" title="Todo App" src="./src/assets/images/logo.png" />
 </h1>
 
 <p align="center">
   <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=E51C44&labelColor=0A1033">
-
   <img src="https://img.shields.io/static/v1?label=Rocketseat&message=Ignite&color=E51C44&labelColor=0A1033" alt="Ignite" />
 </p>
 
-![cover](.github/cover.png?style=flat)
+![cover](./src/assets/images/cover.png)
 
 ## 💻 Projeto
 
