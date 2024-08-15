@@ -1,6 +1,3 @@
-Claro! Aqui está um modelo de README para a aplicação **Todo** da Rocketseat, com ênfase nas tecnologias utilizadas:
-
----
 
 <h1 align="center">
   <img alt="Todo" height="80" title="Todo App" src=".github/logo.png" />
